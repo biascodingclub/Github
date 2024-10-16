@@ -45,7 +45,16 @@ git branch -a  # list all branches
 git branch new-feature  # create a new branch
 ```
 
-## 7. Merge Conflicts
+## 7. `git checkout <branch>`
+Switches between branches or restores files. You can use this command to move to another branch or check out a previous commit.
+
+Example:
+```
+git checkout main  # switch to the main branch
+git checkout -b new-branch  # create and switch to a new branch
+```
+
+## 8. Merge Conflicts
 A merge conflict occurs when Git is unable to automatically resolve differences in code between two commits. This typically happens when two branches modify the same line in a file differently.
 
 To resolve:
